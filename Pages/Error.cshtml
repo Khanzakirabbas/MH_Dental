@@ -1,0 +1,15 @@
+@page
+@model MHDental.Pages.ErrorModel
+@{
+    ViewData["Title"] = "Error";
+}
+
+<div class="container" style="padding:60px 20px; text-align:center;">
+    <h2>Something went wrong.</h2>
+    <p>Sorry, an unexpected error occurred while processing your request.</p>
+    @if (Model.ShowRequestId)
+    {
+        <p><strong>Request ID:</strong> <code>@Model.RequestId</code></p>
+    }
+    <a class="btn-solid" href="~/Index" style="display:inline-flex;">Back to Home</a>
+</div>
