@@ -35,6 +35,7 @@ wwwroot\images\HotProducts\4.jpg
 wwwroot\images\HotProducts\5.jpg
 wwwroot\images\HotProducts\6.jpg
 wwwroot\images\HotProducts\7.jpg
+wwwroot\images\MHLogo.png
 wwwroot\js\site.js
 wwwroot\manifest.json
 wwwroot\service-worker.js
