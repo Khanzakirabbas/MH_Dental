@@ -57,13 +57,13 @@ public class IndexModel : PageModel
 
     public List<Product> HotProducts { get; } = new()
     {
-        new("Dental Chair Unit Premium Comfort", "\u20b92,45,000", "~/images/HotProducts/1.jpg"),
-        new("Autoclave Sterilizer 23L Class B", "\u20b985,000", "~/images/HotProducts/2.jpg"),
-        new("Intraoral Scanner Wireless", "\u20b94,75,000", "~/images/HotProducts/3.jpg"),
-        new("LED Dental Light Shadowless", "\u20b918,500", "~/images/HotProducts/4.jpg"),
-        new("Ultrasonic Scaler With LED", "\u20b922,000", "~/images/HotProducts/5.jpg"),
-        new("Dental Compressor Silent 50L", "\u20b932,000", "~/images/HotProducts/6.jpg"),
-        new("Digital X-Ray Sensor HD", "\u20b96,10,000", "~/images/HotProducts/7.jpg"),
+        new("Dental Chair Unit Premium Comfort", "", "~/images/HotProducts/1.jpg"),
+        new("Autoclave Sterilizer 23L Class B", "", "~/images/HotProducts/2.jpg"),
+        new("Intraoral Scanner Wireless", "", "~/images/HotProducts/3.jpg"),
+        new("LED Dental Light Shadowless", "", "~/images/HotProducts/4.jpg"),
+        new("Ultrasonic Scaler With LED", "", "~/images/HotProducts/5.jpg"),
+        new("Dental Compressor Silent 50L", "", "~/images/HotProducts/6.jpg"),
+        new("Digital X-Ray Sensor HD", "", "~/images/HotProducts/7.jpg"),
     };
 
     public List<Partner> Partners { get; } = new()

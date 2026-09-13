@@ -82,7 +82,7 @@ header.top {
 }
 
     .logo-text .name span {
-        color: var(--blue);
+        color: #0a2c5c;
     }
 
 .logo-text .tag {
@@ -598,7 +598,7 @@ nav.main-nav {
     border: 1px solid var(--blue);
     color: var(--blue);
     background: #fff;
-    padding: 8px 0;
+    padding: 5px 5px;
     border-radius: 4px;
     font-size: 13px;
     font-weight: 600;
@@ -1443,4 +1443,26 @@ footer {
 
 .product-card:hover .product-thumb {
     transform: scale(1.05);
+}
+
+
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo-img {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+@media (max-width: 600px) {
+    .logo-img {
+        height: 32px;
+    }
 }
