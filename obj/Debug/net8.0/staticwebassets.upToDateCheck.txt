@@ -8,7 +8,7 @@ wwwroot\images\2.jpg
 wwwroot\images\3.jpg
 wwwroot\images\4.jpg
 wwwroot\images\AllInOneBrands.jpg
-wwwroot\images\Blogo.png
+wwwroot\images\blogo.png
 wwwroot\images\Brands\1.jpg
 wwwroot\images\Brands\2.jpg
 wwwroot\images\Brands\3.jpg

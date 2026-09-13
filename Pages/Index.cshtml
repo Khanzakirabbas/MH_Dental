@@ -76,7 +76,7 @@
             @foreach (var p in Model.HotProducts)
             {
                 var productImgUrl = Url.Content(p.ImageUrl);
-                var waMessage = Uri.EscapeDataString($"Hi, I'm interested in this product:\n\n{p.Name}\nPrice: {p.Price}\n\nCan you share more details?");
+                var waMessage = Uri.EscapeDataString($"Hi, I'm interested in this product:\n\n{p.Name}\n\nCan you share more details?");
                 var waLink = $"https://wa.me/919598069169?text={waMessage}";
                 <div class="product-card">
                     <div class="product-thumb"><img src="@productImgUrl" alt="@p.Name" loading="lazy" data-fallback-label="@p.Name"></div>
