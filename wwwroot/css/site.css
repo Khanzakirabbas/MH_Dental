@@ -98,6 +98,7 @@ header.top {
     border: 1px solid var(--border);
     border-radius: 4px;
     overflow: hidden;
+    border-radius: 25px;
 }
 
     .search-box input {
@@ -110,7 +111,7 @@ header.top {
     }
 
     .search-box button {
-        background: var(--blue);
+        background: #0a2c5c;
         border: none;
         color: #fff;
         padding: 0 18px;
@@ -598,8 +599,8 @@ nav.main-nav {
     border: 1px solid var(--blue);
     color: var(--blue);
     background: #fff;
-    padding: 5px 5px;
-    border-radius: 4px;
+    padding: 5px 16px;
+    border-radius: 25px;
     font-size: 13px;
     font-weight: 600;
     cursor: pointer;
@@ -1190,6 +1191,7 @@ footer {
         order: 3;
         max-width: 100%;
         flex-basis: 100%;
+        border-radius: 25px;
     }
 
     .top-actions {
