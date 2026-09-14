@@ -605,6 +605,7 @@ nav.main-nav {
     font-weight: 600;
     cursor: pointer;
     margin-top: auto;
+    text-align: center;
 }
 
     .btn-outline:hover {
@@ -1351,9 +1352,9 @@ footer {
     }
 
 /* Partner card */
-.partner-card {
+/*.partner-card {
     flex: 0 0 200px;
-    height: 120px;
+    height: 200px;
     background: #fff;
     border: 1px solid #eee;
     border-radius: 8px;
@@ -1362,19 +1363,19 @@ footer {
     justify-content: center;
     overflow: hidden;
 }
-
-    /* Partner logo */
-    .partner-card img {
-        width: 100%;
-        height: 100%;
-        /*padding: 15px;*/
-        object-fit: contain;
-        display: block;
-    }
+*/
+/* Partner logo */
+.partner-card img {
+    width: 100%;
+    height: 100%;
+    /*padding: 15px;*/
+    object-fit: contain;
+    display: block;
+}
 
 .partner-card {
     flex: 0 0 200px;
-    height: 120px;
+    height: 200px;
     background: #fff;
     border: 1px solid #eee;
     border-radius: 12px;
@@ -1468,3 +1469,41 @@ footer {
         height: 32px;
     }
 }
+
+
+@media (max-width: 600px) {
+    .partner-card {
+        flex: 0 0 150px;
+        height: 200px;
+        background: #fff;
+        border: 1px solid #eee;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        transition: all 0.3s ease;
+    }
+}
+
+
+.ig-float {
+    position: fixed;
+    right: 20px;
+    bottom: 90px; /* sits above the WhatsApp button (adjust to match your wa-float's bottom + its height + gap) */
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    z-index: 999;
+}
+
+    .ig-float svg {
+        width: 28px;
+        height: 28px;
+    }
