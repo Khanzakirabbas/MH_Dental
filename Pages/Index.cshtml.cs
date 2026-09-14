@@ -66,14 +66,28 @@ public class IndexModel : PageModel
         new("Digital X-Ray Sensor HD", "", "~/images/HotProducts/7.jpg"),
     };
 
+    //public List<Partner> Partners { get; } = new()
+    //{
+    //    new("KAVO", "~/images/Brands/1.jpg"),
+    //    new("DURR DENTAL", "~/images/Brands/2.jpg"),
+    //    new("W&H", "~/images/Brands/4.jpg"),
+    //    new("NSK", "~/images/Brands/7.jpg"),
+    //    new("COLTENE", "~/images/Brands/5.jpg"),
+    //    new("WOODPECKER", "~/images/Brands/6.jpg"),
+    //};
+
     public List<Partner> Partners { get; } = new()
     {
-        new("KAVO", "~/images/Brands/1.jpg"),
-        new("DURR DENTAL", "~/images/Brands/2.jpg"),
-        new("W&H", "~/images/Brands/4.jpg"),
-        new("NSK", "~/images/Brands/7.jpg"),
-        new("COLTENE", "~/images/Brands/5.jpg"),
-        new("WOODPECKER", "~/images/Brands/6.jpg"),
+        new("", "~/images/Brands/1.png"),
+        new("", "~/images/Brands/2.png"),
+        new("", "~/images/Brands/3.png"),
+        new("", "~/images/Brands/4.png"),
+        new("", "~/images/Brands/5.png"),
+        new("", "~/images/Brands/6.png"),
+        new("", "~/images/Brands/7.png"),
+        new("", "~/images/Brands/8.png"),
+        new("", "~/images/Brands/9.png"),
+        new("", "~/images/Brands/10.png"),
     };
 
     public List<EventItem> UpcomingEvents { get; } = new()

@@ -27,7 +27,7 @@
             <a class="logo" href="~/Index" aria-label="MH Dental home">
                 <img src="~/images/MHLogo.png" class="logo-img" alt="MH Dental logo">
                 <div class="logo-text">
-                    <div class="name">M.H. <span>DENTAL</span></div>
+                    <div class="name">M.H. <span>DENTAL ALIGHAR</span></div>
                 </div>
             </a>
             <form class="search-box" role="search" method="get">
@@ -36,14 +36,22 @@
             </form>
             <div class="top-actions">
                 <button type="button" id="pwa-install-icon-btn" class="action action-icon-only" aria-label="Install App" title="Install App">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="1.6"><path d="M12 3v12m0 0l-4-4m4 4l4-4" /><path d="M5 17v2a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-2" /></svg>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="url(#downloadGradient)" stroke-width="1.6">
+                        <defs>
+                            <linearGradient id="downloadGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#1a73e8" />
+                                <stop offset="100%" stop-color="#00c853" />
+                            </linearGradient>
+                        </defs>
+                        <path d="M12 3v12m0 0l-4-4m4 4l4-4" />
+                        <path d="M5 17v2a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-2" />
+                    </svg>
                 </button>
 
-                <a class="action action-icon-only" href="https://www.instagram.com/mhdentalaligarh/" target="_blank" rel="noopener" aria-label="Follow us on Instagram" title="Instagram">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="1.6">
-                        <rect x="3" y="3" width="18" height="18" rx="5" ry="5" />
-                        <circle cx="12" cy="12" r="4" />
-                        <circle cx="17.5" cy="6.5" r="0.8" fill="#333" stroke="none" />
+                <a href="https://www.instagram.com/mhdentalaligarh/"
+                   class="ig-float" target="_blank" rel="noopener" aria-label="Follow us on Instagram">
+                    <svg viewBox="0 0 24 24" fill="white">
+                        <path d="M12 2c-2.7 0-3.06.01-4.12.06-1.06.05-1.79.22-2.43.47-.66.26-1.22.6-1.77 1.16-.56.55-.9 1.11-1.16 1.77-.25.64-.42 1.37-.47 2.43C2.01 8.94 2 9.3 2 12s.01 3.06.06 4.12c.05 1.06.22 1.79.47 2.43.26.66.6 1.22 1.16 1.77.55.56 1.11.9 1.77 1.16.64.25 1.37.42 2.43.47C8.94 21.99 9.3 22 12 22s3.06-.01 4.12-.06c1.06-.05 1.79-.22 2.43-.47.66-.26 1.22-.6 1.77-1.16.56-.55.9-1.11 1.16-1.77.25-.64.42-1.37.47-2.43.05-1.06.06-1.42.06-4.12s-.01-3.06-.06-4.12c-.05-1.06-.22-1.79-.47-2.43-.26-.66-.6-1.22-1.16-1.77-.55-.56-1.11-.9-1.77-1.16-.64-.25-1.37-.42-2.43-.47C15.06 2.01 14.7 2 12 2zm0 1.8c2.67 0 2.99.01 4.04.06.97.04 1.5.2 1.85.34.47.18.8.4 1.15.75.35.35.57.68.75 1.15.14.35.3.88.34 1.85.05 1.05.06 1.37.06 4.04s-.01 2.99-.06 4.04c-.04.97-.2 1.5-.34 1.85-.18.47-.4.8-.75 1.15-.35.35-.68.57-1.15.75-.35.14-.88.3-1.85.34-1.05.05-1.37.06-4.04.06s-2.99-.01-4.04-.06c-.97-.04-1.5-.2-1.85-.34-.47-.18-.8-.4-1.15-.75-.35-.35-.57-.68-.75-1.15-.14-.35-.3-.88-.34-1.85C3.81 14.99 3.8 14.67 3.8 12s.01-2.99.06-4.04c.04-.97.2-1.5.34-1.85.18-.47.4-.8.75-1.15.35-.35.68-.57 1.15-.75.35-.14.88-.3 1.85-.34C9.01 3.81 9.33 3.8 12 3.8zm0 3.05a5.15 5.15 0 100 10.3 5.15 5.15 0 000-10.3zm0 8.5a3.35 3.35 0 110-6.7 3.35 3.35 0 010 6.7zm5.35-8.7a1.2 1.2 0 11-2.4 0 1.2 1.2 0 012.4 0z" />
                     </svg>
                 </a>
                 @* <a style="display:none;" class="action action-icon-only" href="#" aria-label="Request a Quote" title="Request a Quote"><svg viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="1.6"><path d="M9 5h11l-1.5 8h-9L7 3H3" /><circle cx="10" cy="20" r="1.3" /><circle cx="17" cy="20" r="1.3" /></svg></a> *@
@@ -76,7 +84,7 @@
             <div>
                 <div class="footer-brand">
                     <svg width="30" height="30" viewBox="0 0 64 64" fill="none" stroke="#fff" stroke-width="3"><path d="M32 8c-6 0-9 4-14 4-6 0-10-4-10 6 0 10 4 14 6 24 1.5 7 4 12 8 12 5 0 4-10 10-10s5 10 10 10c4 0 6.5-5 8-12 2-10 6-14 6-24 0-10-4-6-10-6-5 0-8-4-14-4z" /></svg>
-                    <div><div class="name">MH Dental</div><div class="tag">Quality You Can Trust</div></div>
+                    <div><div class="name">MH Dental Alighar</div></div>
                 </div>
                 <p>Premium Dental Equipment For Modern Practices That Demand Excellence</p>
                @*  <div class="socials">
@@ -118,7 +126,7 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <div>&copy; @DateTime.Now.Year MH Dental. All Rights Reserved.</div>
+            <div>&copy; @DateTime.Now.Year MH Dental Alighar. All Rights Reserved.</div>
             @* <div>Designed &amp; Developed by ZackTech</div> *@
         </div>
     </footer>
